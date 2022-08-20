@@ -13,7 +13,7 @@
       b.	Example: we identified that Female that are under 25 prefer Dance music …  and so we can recommend Dance Album to drive Sales
       c.	Results from Model
             i.	Root Node  		        … has Age as the condition to begin classification 
-            ii.	Next Node has Gender 	       … split Females from Males
+            ii.	Next Node has Gender 	         … split Females from Males
             iii.  3rd level of Nodes use Age 	… as condition to classify under 25 + 25 - 30.5
 
             iv.	Leaf Node = Turquoise = Female  … who are less under 25 = Dance
