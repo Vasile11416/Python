@@ -1,0 +1,29 @@
+1.	Business Goal: 	use Machine Learning to increase Album Sales
+2.	Hypothesis 		  Age & Gender determine the type of music people listen 
+3.	Data Sample: 		Male and Female between the ages of 20 and 37 years old
+
+4.	Hypothesis Testing: 	Decision Tree
+      a.	independent variables/ input 	= Age & Gender are the fields 
+      b.	dependent variable / output   = Acoustic, HipHop, Dance
+
+5.	Environment: Jupyter Notebooks (Pandas df, SciKit Learn), Visual Studio Code (data visualization)
+
+6.	Conclusion 		
+      a.	Our experiment identified that our original Hypothesis is True … Age & Gender influence the type of music people listen… and so we can recommend specific Albums … that will increase Sales
+      b.	Example: we identified that Female that are under 25 prefer Dance music …  and so we can recommend Dance Album to drive Sales
+      c.	Results from Model
+            i.	Root Node  		              … has Age as the condition to begin classification 
+            ii.	Next Node has Gender 	      … split Females from Males
+            iii.3rd level of Nodes use Age 	… as condition to classify under 25 + 25 - 30.5
+
+            iv.	Leaf Node = Turquoise = Female  … who are less under 25 = Dance
+            v.	Leaf Node = Orange = Female     … who are 25 - 30.5 = Acoustic 
+            vi.	Leaf Node = Blue = Male         … who are under 25 = HipHop 
+            vii.Leaf Node = Purple = Male       … who are 25 - 30.5 = Acoustic 
+
+      d.	Limitations: the Data sample is incredibly small which limits the application to real world scenarios
+
+7.	Next Steps: 
+      a.	Circle back to business/sales team to share results from this experiment, ask for feedback, iterate, and create ticket for dev team
+      b.	Partner with the dev team to create a recommendation engine
+      c.	test the recommendation engine on a small group of users 
