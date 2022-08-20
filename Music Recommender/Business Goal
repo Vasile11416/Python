@@ -4,7 +4,7 @@
 
 4.	Hypothesis Testing: 	Decision Tree
       a.	independent variables/ input 	= Age & Gender are the fields 
-      b.	dependent variable / output   = Acoustic, HipHop, Dance
+      b.	dependent variable / output    = Acoustic, HipHop, Dance
 
 5.	Environment: Jupyter Notebooks (Pandas df, SciKit Learn), Visual Studio Code (data visualization)
 
